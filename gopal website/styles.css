@@ -193,6 +193,25 @@ form {
     color: black;
     padding-bottom: 1rem;
   }
+.contact-info {
+  text-align: center;
+  font-size: 1rem;
+  color: #333; /* Dark gray text color */
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact-info .contact-link {
+  color: #007BFF; /* Link color (blue) */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-info .contact-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
 
   @media (max-width: 768px) {
     .header-content {
